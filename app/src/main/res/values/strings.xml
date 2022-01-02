@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Name that color</string>
+
+    <string name="name">Name</string>
+
+    <!-- MainActivity -->
+    <string name="last_version_checking_failed">Unable to check for updates</string>
+    <string name="update_app">Would you like to install latest app version?\nCurrent version: %1$s\nLatest version: &#160;&#160;%2$s</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="update">Update</string>
+
+    <!-- Theme -->
+    <string name="automatically">Automatically</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+
+    <!-- NameFragment -->
+    <string name="load_image">Load image</string>
+    <string name="select_a_photo_to_continue">Select a photo to continue</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="mail_client_not_found">You don\'t have any mail clients installed on your device</string>
+    <string name="smth_went_wrong">Something went wrong</string>
+    <string name="theme">Theme</string>
+    <string name="more">More</string>
+    <string name="help_and_feedback">Help &amp; feedback</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="more_apps">More apps</string>
+
+    <!-- Preference keys -->
+    <string name="key_theme" translatable="false">theme</string>
+    <string name="key_help_and_feedback" translatable="false">help_and_feedback</string>
+    <string name="key_share_this_app" translatable="false">share_this_app</string>
+    <string name="key_more_apps" translatable="false">more_apps</string>
+    <string name="key_app_version" translatable="false">app_version</string>
+
+
+</resources>
