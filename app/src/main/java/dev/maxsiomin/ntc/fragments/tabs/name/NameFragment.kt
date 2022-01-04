@@ -75,6 +75,7 @@ class NameFragment : BaseFragment(R.layout.fragment_name) {
                 // Image Uri will not be null for RESULT_OK
                 val fileUri = data?.data!!
                 dataBundle.putString(IMAGE_URI, fileUri.toString())
+                mViewModel.onImageSet()
                 binding.imageView.setImageURI(fileUri)
             } else if (resultCode == ImagePicker.RESULT_ERROR) {
                 mViewModel.toast(ImagePicker.getError(data), Toast.LENGTH_SHORT)

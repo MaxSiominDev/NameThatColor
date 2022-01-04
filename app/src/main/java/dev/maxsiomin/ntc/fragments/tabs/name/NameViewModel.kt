@@ -5,7 +5,6 @@ import androidx.annotation.ColorInt
 import androidx.core.graphics.blue
 import androidx.core.graphics.green
 import androidx.core.graphics.red
-import androidx.lifecycle.MutableLiveData
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.maxsiomin.ntc.fragments.BaseViewModel
 import dev.maxsiomin.ntc.fragments.intMutableLiveData
