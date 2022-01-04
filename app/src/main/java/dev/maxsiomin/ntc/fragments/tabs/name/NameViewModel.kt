@@ -13,6 +13,7 @@ import dev.maxsiomin.ntc.fragments.stringMutableLiveData
 import dev.maxsiomin.ntc.util.UiActions
 import dev.maxsiomin.ntc.util.colorhandler.ColorHandler.getColorName
 import timber.log.Timber
+import java.util.*
 import javax.inject.Inject
 
 @HiltViewModel
@@ -64,7 +65,7 @@ class NameViewModel @Inject constructor(uiActions: UiActions) : BaseViewModel(ui
 
     // Example: #FFFFFF
     private fun updateHexLiveData(r: String, g: String, b: String) {
-        hexLiveData.value = "#$r$g$b"
+        hexLiveData.value = "#$r$g$b".uppercase(Locale.getDefault())
     }
 
     // Example: White
