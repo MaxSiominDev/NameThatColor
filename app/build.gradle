@@ -71,10 +71,10 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.4.1')
 
     // Firebase Analytics
-    implementation 'com.google.firebase:firebase-analytics-ktx:20.0.2'
+    implementation 'com.google.firebase:firebase-analytics-ktx:20.1.0'
 
     // Google services
-    implementation 'com.google.android.gms:play-services-auth:20.0.1'
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
 
     // Image picker
     implementation 'com.github.dhaval2404:imagepicker:2.1'
